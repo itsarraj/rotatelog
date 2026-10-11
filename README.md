@@ -9,6 +9,12 @@ into `/etc/logrotate.d/` — there's no equivalent you can just point at a
 path and run. `rotatelog` is that: a single binary, one file, one command,
 no config file to write first.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
